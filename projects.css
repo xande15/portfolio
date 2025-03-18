@@ -1,19 +1,19 @@
-body{
-    color: #ffffff;
+body {
+    color: white;
     background-color: #0a1018;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 ul {
     display: flex;
-    justify-content: space-between;
-    list-style-type: none;
+    justify-content: space-around;
+    list-style: none;
     align-items: center;
     padding: 16px;
 }
 
 a {
-    color: #ffffff;
+    color: white;
     text-decoration: none;
 }
 
@@ -40,6 +40,7 @@ footer img {
 footer {
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 footer a {
@@ -47,13 +48,16 @@ footer a {
     text-align: center;
 }
 
-.container {
-    padding: 0px 50px;
-}
-
 nav a:hover {
     color: #2d73ce;
 }
-main section {
+
+section {
     padding: 10px;
+}
+.contai {
+    padding: 0px 50px;
+}
+section a {
+    color: #6ba1e9;
 }
